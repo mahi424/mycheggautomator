@@ -1,0 +1,20 @@
+{
+  "name": "GetCheggGo",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Automate My Skip",
+  "homepage_url": "https://github.com/mahi424",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "GetCheggGo"
+  },
+  "permissions": [
+    "https://www.chegg.com/*"
+  ]
+}
