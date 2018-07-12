@@ -7,14 +7,15 @@
 	else if (document.title == "Chegg ReCaptcha") {
 	    window.location.replace("https://www.chegg.com/homework-help/expertquestion");
 	}
-	else{
+	else if (window.location.href=="https://www.chegg.com/homework-help/expertquestion") {
 		var retVal = confirm("Do you want to skip ?");
-			if( retVal == true ){
+		if( retVal == true ){
 		    document.getElementById("skipQuestion-Answer").click();
 		    document.getElementById("noSubKnowledge").checked = true;
 		    var classes = document.getElementsByClassName('primary btn-lg btn-primary');
 		    var btn1 = classes[0];
 		    btn1.click();
-		}
-	}
+		}			
+}
 })();
+
