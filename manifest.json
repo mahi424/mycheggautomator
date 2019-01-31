@@ -1,8 +1,8 @@
 {
   "name": "GetCheggGo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Automate My Skip",
+  "description": "Automate My Chegg Skip",
   "homepage_url": "https://github.com/mahi424",
   "background": {
     "scripts": [
