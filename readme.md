@@ -3,7 +3,8 @@ A Chrome  Extension To Automate The Question Skip Procedure
 ## Steps To Install
 1. Download the extesnion source or just clone it with git
  ``` git clone git@github.com:mahi424/mycheggautomator.git ```
-2. Open the chrome extension settings or click [Here](chrome://extensions/)
+2. Open the chrome extension settings or paste this in your browser's search bar ```chrome://extensions/```
+
 3. Enable the developer mode in chrome
 4. Browse to the location of extension's source folder
 5. Enjoy
